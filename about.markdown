@@ -13,7 +13,7 @@ permalink: /about/
 
 Hi, I'm Dr. Robert "Butch" Buccigrossi. I'm a computer scientist, a principal investigator in the NIST AI Safety initiative, and the host of **SkepticCTO**.
 
-If you've been following tech news lately, you might think artificial intelligence is magic—or perhaps a monster waiting in the wings. I genuinely love this technology, but I am exhausted by the hype. My goal with the [SkepticCTO YouTube Channel](https://www.youtube.com/@skepticcto) is to offer a third perspective: the pragmatism of a Skeptic Engineer. 
+If you've been following tech news lately, you might think artificial intelligence is magic, or perhaps a monster waiting in the wings. I genuinely love this technology, but I am exhausted by the hype. My goal with the [SkepticCTO YouTube Channel](https://www.youtube.com/@skepticcto) is to offer a third perspective: the critical eye of scientific skepticism and objective evidence.
 
 I built this channel as a home for curious minds who want to understand the reality of AI. Here, you'll find bite-sized AI news translations, educational deep-dives, and channel announcements, all aimed at replacing the "glowing blue brains" of AI marketing with practical engineering truths. 
 
@@ -32,7 +32,7 @@ I built this channel as a home for curious minds who want to understand the real
 
 My flagship video essay series is **Decoding the Language Machine**. In it, we strip away the black-box mythology of Large Language Models (LLMs) and look at the raw machinery underneath. 
 
-I firmly believe that history is the ultimate interpretability tool. To understand why an LLM hallucinates or how it "learns," we don't just stare at modern models—we revisit the fundamental hard problems computer scientists have been fighting for over 60 years. By exploring the history, mathematics, and code—from Claude Shannon’s 1948 probability tables to the birth of neural networks—we build a robust intuition for how these systems actually operate. 
+I firmly believe that history is the ultimate interpretability tool. To understand why an LLM hallucinates or how it "learns," we revisit the fundamental hard problems computer scientists have been fighting for over 60 years. By exploring the history, mathematics, and code (from Claude Shannon’s 1948 probability tables to the birth of neural networks) we build a robust intuition for how these systems actually operate. 
 
 When we open up the machine, we don't find ghosts or consciousness; we find statistics, geometry, and decades of fascinating engineering.
 
