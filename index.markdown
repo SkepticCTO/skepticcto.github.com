@@ -10,3 +10,7 @@ Welcome to SkepticCTO! This is the companion site for the YouTube series
 *["Decoding the Language Machine."](https://www.youtube.com/@skepticcto)* 
 Below you will find our latest articles, 
 deep dives, and educational resources regarding AI.
+
+<div class="post-header"></div>
+
+

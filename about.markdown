@@ -40,9 +40,7 @@ When we open up the machine, we don't find ghosts or consciousness; we find stat
 
 ## Open Source & Creative Commons
 
-We operate on the "Glass Box" protocol: when we talk about math and code, we show the math and code. 
-
-To help creatives, educators, and fellow skeptics, the educational media, custom Manim animations, and source code used in *Decoding the Language Machine* (with the exception of my personal likeness and video footage) are released under a Creative Commons License. 
+To help creatives, educators, and fellow skeptics, the educational media, custom Manim animations, and source code used in *Decoding the Language Machine* (with the exception of my personal likeness and video footage) are released under a Creative Commons License (CC BY). 
 
 You can find code, prompts, and assets used to build the series in our public GitHub repository:  
 [github.com/SkepticCTO/decoding_the_language_machine](https://github.com/SkepticCTO/decoding_the_language_machine)
