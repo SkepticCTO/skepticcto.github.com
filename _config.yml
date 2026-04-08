@@ -34,8 +34,11 @@ plugins:
 
 # Theme settings
 minima:
-  skin: dark
-  social_links:
+  skin: auto
+  social_links: # Find icons at https://fontawesome.com/icons/packs/brands
+    - title: Youtube
+      icon: youtube
+      url: "https://www.youtube.com/@skepticcto"
     - title: Github
       icon: github
       url: "https://github.com/SkepticCTO/"
