@@ -17,7 +17,7 @@ If you've been following tech news lately, you might think artificial intelligen
 
 I built this channel as a home for curious minds who want to understand the reality of AI. Here, you'll find bite-sized AI news translations, educational deep-dives, and channel announcements, all aimed at replacing the "glowing blue brains" of AI marketing with practical engineering truths. 
 
----
+<div class="post-header"></div>
 
 ## Decoding the Language Machine
 
@@ -36,7 +36,7 @@ I firmly believe that history is the ultimate interpretability tool. To understa
 
 When we open up the machine, we don't find ghosts or consciousness; we find statistics, geometry, and decades of fascinating engineering.
 
----
+<div class="post-header"></div>
 
 ## Open Source & Creative Commons
 
@@ -45,7 +45,7 @@ To help creatives, educators, and fellow skeptics, the educational media, custom
 You can find code, prompts, and assets used to build the series in our public GitHub repository:  
 [github.com/SkepticCTO/decoding_the_language_machine](https://github.com/SkepticCTO/decoding_the_language_machine)
 
----
+<div class="post-header"></div>
 
 ### Let's Connect!
 * **YouTube:** [Subscribe to @SkepticCTO](https://www.youtube.com/@skepticcto)

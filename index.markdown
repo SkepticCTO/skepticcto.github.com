@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![SkepticCTO Banner](/assets/images/home/banner_wide.jpg)
+![SkepticCTO Banner](/assets/images/home/SkepticCTO Banner.jpg)
 
 Welcome to SkepticCTO! This is the companion site for the YouTube series 
 *["Decoding the Language Machine."](https://www.youtube.com/@skepticcto)* 
