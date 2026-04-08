@@ -26,7 +26,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true # Caches gems automatically to speed up builds
       - name: Setup Pages
         uses: actions/configure-pages@v4
