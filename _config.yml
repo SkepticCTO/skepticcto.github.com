@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A site for curious minds who want to understand the reality of Artificial Intelligence.
   We ignore the 'glowing blue brains' of AI marketing to look at the raw machinery underneath.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.skepticcto.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
 github_username:  SkepticCTO
 
 # Build settings
