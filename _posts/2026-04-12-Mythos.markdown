@@ -32,7 +32,7 @@ The US Government response was swift. Treasury Secretary Bessent and Fed Chair P
 
 But not everyone is persuaded. [Gary Marcus called the demo](https://garymarcus.substack.com/p/three-reasons-to-think-that-the-claude) "proof of concept that we need to get our regulatory and technical house in order, but not the immediate threat the media was led to believe." David Sacks, the US AI Czar, [accused Anthropic](https://x.com/TheChiefNerd/status/2042946121648001375) of using “fear as a way to market new products” with a “proven pattern.” AISLE, an AI security research firm, ran experiments suggesting that much of Mythos's headline vulnerability analysis [could be replicated by small, cheap models](https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier) and proposed a key insight: "the moat in AI cybersecurity is the system, not the model."
 
-We will discuss AISLE’s observation about the importance of agentic harnesses has not been given enough attention, and we will delve into it in a moment.
+AISLE’s observation about the importance of agentic harnesses has not been given enough attention, and we will delve into it in a moment.
 
 ## **What the Primary Sources Actually Establish**
 
@@ -117,7 +117,3 @@ The evidence supports four conclusions:
 **The most underappreciated problem is not the model, but the power concentration it represents.** [Kelsey Piper noted on X](https://x.com/KelseyTuoc/status/2041599713972253067): "A private company now has incredibly powerful zero-day exploits of almost every software project you've heard of." Anthropic's own policy framework did not require this withholding, but instead they did it voluntarily. That means the decision rests entirely on one company's judgment, with no external accountability. Jonathan Iwry of Wharton's Accountable AI Lab [put it plainly](https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here/): "The most striking aspect of this situation is how reliant we are on the judgment of a handful of private actors who aren't accountable to the public." Regardless of how trustworthy you think Anthropic is today, that is concerning.
 
 **Other models will probably soon match Mythos’s hacking capability.**  [As Alex Stamos warned](https://fortune.com/2026/04/10/anthropic-mythos-ai-driven-cybersecurity-risks-already-here/), the window before open-weight models catch up is roughly six months. At that point, the "dangerous secret model" framing becomes moot. Every ransomware actor will eventually get access to comparable capabilities whether any single lab withholds its model or not. AISLE articulated most clearly: don't wait for Mythos access. We software developers need to build the pipelines, shorten the patch cycles, and automate the defensive workflows.
-
----
-
-[*SkepticCTO.com*](http://SkepticCTO.com) *\- A site for curious minds who want to understand the reality of Artificial Intelligence.*
