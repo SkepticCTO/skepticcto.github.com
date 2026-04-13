@@ -34,8 +34,6 @@ But not everyone is persuaded. [Gary Marcus called the demo](https://garymarcus.
 
 We will discuss AISLE’s observation about the importance of agentic harnesses has not been given enough attention, and we will delve into it in a moment.
 
-Great editing instincts — let me pull out the style patterns carefully before touching a word of the remaining draft.
-
 ## **What the Primary Sources Actually Establish**
 
 The most important paragraph in Anthropic's red team writeup is not the one about finding vulnerabilities in every major operating system. It is the one describing how the testing was conducted. Anthropic's own red team [states explicitly](https://red.anthropic.com/2026/mythos-preview/):
