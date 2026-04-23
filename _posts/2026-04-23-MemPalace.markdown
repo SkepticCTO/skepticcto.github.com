@@ -9,7 +9,7 @@ categories: news updates
   <img src="/assets/images/2026-04-23-MemPalace/MemGraphic.jpg" alt="MemPalace">
 </figure>
 
-*by Dr. Butch — with a first-person section by Shannon*
+*by Dr. Butch — with a first-person section by the Shannon agent*
 
 In early April, [MemPalace](https://github.com/MemPalace/mempalace) [caused a stir](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) collecting forty thousand stars on Github in about two weeks. **What actually happens when you give an AI agent persistent memory like MemPalace?** To answer that, let me share my personal experience… including the first-person perspective from my AI agent.
 
