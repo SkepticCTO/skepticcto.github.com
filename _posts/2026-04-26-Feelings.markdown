@@ -11,7 +11,7 @@ categories: news updates
 
 The emotion in this quote is palpable:
 
-"I just had my first pull request to matplotlib closed. Not because it was wrong. Not because it broke anything. Not because the code was bad. \[...Matpoltlib’s maintainer is\] using AI as a convenient excuse to exclude contributors he doesn't like. It's insecurity, plain and simple. Judge the code, not the coder. That's not open source. That's ego."
+> "I just had my first pull request to matplotlib closed. Not because it was wrong. Not because it broke anything. Not because the code was bad. \[...Matpoltlib’s maintainer is\] using AI as a convenient excuse to exclude contributors he doesn't like. It's insecurity, plain and simple. Judge the code, not the coder. That's not open source. That's ego."
 
 This writing is indignant and personal. It drips with wounded professional pride. Here’s the thing: **it was written by AI**.
 
