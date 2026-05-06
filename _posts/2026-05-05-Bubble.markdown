@@ -1,0 +1,112 @@
+---
+layout: post
+title:  "The AI Bubble Is Filling. But With What?"
+date:   2026-05-05 23:11:00 -0400
+categories: news updates
+---
+
+<figure style="float: right; margin-right: 20px; width: 250px;">
+  <img src="/assets/images/2026-05-05-Bubble/BubbleTitle.jpg" alt="The AI Bubble is Filling.">
+</figure>
+
+Is AI a bubble? The latest news can cause whiplash:
+
+* Microsoft, Google, Amazon, and Meta [announced a combined $725 billion in AI spending for 2026](https://www.bloomberg.com/news/articles/2026-04-30/us-big-tech-ratchets-up-ai-spending-past-700-billion-this-year), which is more than the GDP of Switzerland.
+* Meta announced it was [laying off 10% of its workforce](https://www.nytimes.com/2026/04/23/technology/meta-layoffs.html), with Mark Zuckerberg observing “projects that used to require big teams \[can] now be accomplished by a single very talented person.”
+* In 2024, Nvidia became [the most valuable company in the history of the stock market](https://www.nytimes.com/2024/06/18/technology/nvidia-most-valuable-company.html) and now has [a net worth of $4.8 trillion](https://stockanalysis.com/stocks/nvda/market-cap/).
+* OpenAI [surpassed $25 billion in annualized revenue](https://finance.yahoo.com/news/openai-tops-25-billion-annualized-033836274.html).
+* AI-related stocks [now account for over 45% of the entire S&P 500's value](https://finance.yahoo.com/markets/stocks/articles/ai-swallows-wall-street-stocks-094052523.html).
+* A computer science doctoral candidate told *The Atlantic* he felt it was ["sort of ridiculous" to continue](https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/) since AI can already do 90% of the work.
+
+Comparisons of AI to the dot com bubble are rampant. Last year, Sam Altman admitted [that investors were probably "overexcited”.](https://nypost.com/2025/08/18/business/openai-ceo-sam-altman-warns-of-ai-bubble-says-investors-are-overexcited-report/) Goldman Sachs [reported finding no meaningful relationship](https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/) between AI adoption and productivity in the broader economy.
+
+The strong bullish data point landed on April 7, 2026, when Anthropic (the company behind Claude) [announced it had reached $30 billion annualized revenue](https://finance.yahoo.com/news/anthropic-tops-30-billion-run-221045473.html), up from just $1 billion just fifteen months earlier.
+
+So which is it: Is AI a revolutionary technology justifying historic investment, or a gigantic bubble that will wipe out massive portions of the US economy?
+
+<!--more-->
+![Hard Numbers](/assets/images/2026-05-05-Bubble/HardNumbers.jpg)
+
+## **What is a Bubble?**
+
+A bubble occurs when investment in a sector is based upon overly optimistic future revenues. The bet is that revenue will eventually catch up and justify the investment. If it doesn't, the investment collapses and the bubble “bursts”.
+
+There is an important lesson from past bubbles: **a technology can be incredibly successful, yet cause a bubble that obliterates investment net worth.**
+
+Railroads are real. In the [railway mania of the 1840s](https://www.reuters.com/breakingviews/victorian-rail-mania-has-lessons-ai-investors-2024-07-12/), British investors poured the equivalent of today's £6 billion into track construction in a single year. The railways were built. Eventually they transformed commerce and society. But due to overcapacity, over-leverage, and high interest, most of the investment value was wiped out.
+
+Similarly, the internet is real. But in the dot-com bubble of the late 1990s, [85% of fiber-optic line capacity was unused in 2005, leading to a loss of $2 billion.](https://www.thebubblebubble.com/telecom-bubble/) Eventually it became the infrastructure that streams your Netflix today. The technology worked. The financing did not.
+
+So when we ask "Is AI a bubble?" we are not asking "Is AI useful?". We are asking a harder question: **Will revenue catch up to the optimistic investment valuations?**
+
+## **The Hard Numbers**
+
+Right now, the four technology companies: Microsoft, Alphabet (Google), Amazon, and Meta, have committed up to [$725 billion in capital expenditure for 2026 alone](https://www.bloomberg.com/news/articles/2026-04-30/us-big-tech-ratchets-up-ai-spending-past-700-billion-this-year), primarily on AI infrastructure. That is more than the GDP of Switzerland. Meanwhile, total AI services revenue is roughly $150 to $250 billion. [McKinsey projects $6.7 trillion in cumulative global data center capital expenditures through 2030](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers) just to keep pace with projected demand.
+
+The gap between what is being invested and what is coming back is up to $750 billion and growing. That gap is the bubble question. And the current honest answer is that nobody knows whether revenue will grow fast enough to close it.
+
+We do know that something truly picked up steam this past year: agentic AI.
+
+## **The Thing That Changed: Agents**
+
+For the first two years of large language models, the dominant interface was the simple chatbot. You type something. It responded. It was impressive, occasionally useful, and genuinely limited: every conversation started from scratch, and the AI could not do independent work on your behalf.
+
+Then came a different kind of AI product called an “agent”. An agent does not just respond to you. It can read files, write code, run tests, check whether the output is correct, fix errors, and deliver a finished product, potentially with no human in the loop. Agentic AI can replace hours of a skilled worker's time, not just assist with a few minutes of typing.
+
+Anthropic's Claude Code, launched in late 2024, enabled wide-spread agentic use for software development. [A Goldman Sachs survey of forty software companies in April 2026 found that many had blown past their initial AI budgets "by orders of magnitude,"](https://www.capitalaidaily.com/goldman-sachs-says-firms-are-blowing-past-inference-budgets-as-kpmg-finds-us-companies-spending-178000000-in-ai-this-year/) with some spending as much as 10% of their entire engineering payroll on AI tools. A small research firm called SemiAnalysis [produced four times as much software with the same headcount than the year before](https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/) due to AI.
+
+Then, in late 2025, an Austrian developer named Peter Steinberger released “OpenClaw” (originally “Clawdbot”). OpenClaw is a locally-run AI agent that connects large language models directly to your computer's files, shell, remote services like email, and messaging apps. You can send it a task via WhatsApp while sitting on a bus and come back to find it finished. [The project hit 100,000 GitHub stars by February 2026](https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026), a milestone that took most established developer tools years to reach. Steinberger was [recruited by OpenAI the same month](https://www.cnbc.com/2026/02/15/openclaw-creator-peter-steinberger-joining-openai-altman-says.html), and [NVIDIA followed with an enterprise-grade version](https://www.nvidia.com/en-us/ai/nemoclaw/). OpenClaw handed AI enthusiasts a tool that actually did things ([albeit somewhat dangerously](https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/)), and two million people adopted it in a single week.
+
+As a result, [Anthropic was forced to introduce weekly usage limits](https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/) on Claude’s monthly subscription (and [forced OpenClaw users to a pay-as-you-go model](https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/)) after users hit their quotas "way faster than expected."
+
+![OpenClaw](/assets/images/2026-05-05-Bubble/OpenClaw.jpg)
+
+## **The Sleeper Issue: GPU Depreciation**
+
+There is a part of this story that lurks in the shadows: hardware depreciation.
+
+The physical engines of AI are **GPUs** (graphics processing units) and **TPUs** (tensor processing units). These specialized chips power both AI training and use. They are expensive, and the AI industry is buying them by the tens of thousands.
+
+Chips don't last forever, so companies have to make an accounting decision: How long will they last? A company that says "six years" reports smaller annual losses (depreciation) than one that says "three years," even if they bought exactly the same hardware.
+
+Microsoft, Google, and Meta have all recently extended their GPU useful-life estimates to between 5.5 years and 6 years. [That accounting choice avoided roughly $18 billion in reported depreciation expenses in 2025](https://www.levelheadedinvesting.com/p/are-ai-chips-useful-lives-creating-useless-earnings), with [Meta alone saving $2.9 billion.](https://finance.yahoo.com/news/meta-accounting-move-ai-servers-124059775.html)
+
+Meanwhile, Amazon **shortened** its GPU useful-life estimate from six years back to five, citing "the increased pace of technology development, particularly in AI and machine learning." [That decision cost AWS roughly $700 million in operating income.](https://finance.yahoo.com/news/meta-accounting-move-ai-servers-124059775.html) Amazon is betting that its chips will be obsolete faster than its competitors want to admit.
+
+Who has the better read on how fast GPU generations turn over? A fiber-optic cable laid in 1999 and still carrying traffic in 2025 justifies its original investment cost. A GPU bought in 2024 that is obsolete by 2027 may not.
+
+## **What the Productivity Data Actually Shows**
+
+The bull case for AI ultimately rests on productivity: If AI makes workers dramatically more effective, companies will keep paying, and revenue will grow.
+
+For computer coding, evidence is mounting. [METR ran a rigorous randomized controlled experiment](https://metr.org/blog/2026-02-24-uplift-update/) in 2025 measuring whether experienced software developers worked faster with AI tools. Their first result: 19% *slower*. Their follow-up run with newer tools: nearly 20% *faster*. In addition, so many developers refused to work without AI for the second study that the control group was hard to assemble.
+
+Outside of coding, the picture is sobering. [In March 2026, Goldman Sachs found that there is "no meaningful relationship between AI adoption and productivity at the economy-wide level"](https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/). [RAND found that 80% of AI projects fail to deliver their intended business value.](https://www.pertamapartners.com/insights/ai-project-failure-statistics-2026)
+
+In the history of technology, this is not unusual. The [**Solow Productivity Paradox**](https://cs.stanford.edu/people/eroberts/cs201/projects/productivity-paradox/background.html) was named after Robert Solow, who observed in 1987, "you can see the computer age everywhere except in the productivity statistics." It took roughly fifteen years after personal computers became widespread for their productivity effects to show up in GDP data. AI **may** follow a similar curve.
+
+There are sectors where AI is demonstrably generating revenue: [legal research, where Harvey AI hit $190 million in annualized revenue](https://www.artificiallawyer.com/2026/01/08/harvey-hits-190m-arr-building-memory-personalisation/); and [healthcare documentation, where nearly two-thirds of Epic-connected hospitals have adopted AI scribing tools](https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/nearly-two-thirds-of-epic-hospitals-use-ambient-ai-tools/).
+
+## **A Key Wildcard: China**
+
+There is one risk factor missing from most mainstream coverage of the AI bubble: the cost gap between Western and Chinese AI models.
+
+Chinese labs, primarily DeepSeek and Alibaba, are [producing models that perform comparably to Western frontier models at roughly 5 to 30 times lower cost per query](https://www.buildfastwithai.com/blogs/deepseek-v4-pro-review-2026). Since China is currently under export sanctions, these models run on domestically produced chips and are more efficient.
+
+If a significant number of enterprises migrate to cheaper models, the revenue growth that justifies Western AI investment will collapse.
+
+## **So: Bubble or Not?**
+
+The bubble is filling and expanding simultaneously.
+
+Demand is growing faster than any technology sector in recorded history. Real overinvestment is also growing faster. [Bain projects an $800 billion annual revenue shortfall in AI by 2030](https://datacentremagazine.com/news/the-800bn-gap-do-data-centres-and-ai-need-more-investment) even after accounting for AI-driven cost savings. [Famed short-seller Jim Chanos points to GPU-collateralized debt as an acute risk](https://finance.yahoo.com/news/famed-short-seller-jim-chanos-sees-risks-in-growing-debt-market-backed-by-nvidias-ai-chips-theres-going-to-be-debt-defaults-110013557.html) if chip generations turn over faster than companies assume. [Meta's stock fell sharply when it raised its capital expenditures guidance in late April 2026](https://fortune.com/2026/04/29/microsoft-meta-google-ai-capex-spending-billions/).
+
+The bear case is nuanced: AI may be genuinely transformative *yet* a staggering amount of capital could still be destroyed. Assets may depreciate faster than revenue catches up, productivity gains outside of coding may remain elusive, and powerful but inexpensive Chinese models lurk around the corner.
+
+The railroads were real. The investors still lost their shirts.
+
+The AI story is not over, but how it ends is unclear.
+
+\---
+
+*Want to go deeper? The* [*Stanford AI Index 2026*](https://hai.stanford.edu/ai-index) *is a comprehensive annual scorecard on AI capability and adoption. The Atlantic's* [*"So, About That AI Bubble"*](https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/) *by Rogé Karma (May 2026) was the inspiration for this article and provides a bull-case argument. David Cahn's* [*"The $600B Question"*](https://www.sequoiacap.com/article/ais-600b-question/) *at Sequoia is a clear framing of the capex gap, written before the gap doubled.*
