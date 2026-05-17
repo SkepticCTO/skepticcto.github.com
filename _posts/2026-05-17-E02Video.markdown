@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Symbolic AI and the AI Winter (Decoding the Language Machine Ep. 2)"
+date:   2026-05-17 16:23:00 -0400
+categories: news video updates
+---
+
+<figure style="float: right; margin-right: 20px; width: 250px;">
+  <a href="https://youtu.be/M8DE7fiP0jU">
+    <img src="/assets/images/thumbnails/EP02Thumbnail.jpg" alt="The ELIZA Effect">
+    <figcaption style="font-size: 0.8em; text-align: center;">
+      Watch "Symbolic AI and the AI Winter (Decoding the Language Machine Ep. 2)"
+    </figcaption>
+  </a>
+</figure>
+
+Watch it here: [https://youtu.be/M8DE7fiP0jU](https://youtu.be/M8DE7fiP0jU)
+
+How did a 200-line computer program fool humans into thinking it had empathy in 1966? Discover the rise and fall of Symbolic AI.
+
+In Episode 2 of Decoding the Language Machine, Dr. Butch explores the era when researchers believed intelligence could be built entirely on logic and handwritten rules. We dive into how early successes like the Logic Theorist and SHRDLU gave way to the Microworld Problem. See exactly how Joseph Weizenbaum's ELIZA used simple pattern matching to fake human connection—sparking the "ELIZA Effect." Finally, learn why the inability to define complex real-world objects (like a simple cat) caused funding to freeze, triggering the devastating AI Winter.
+
+<!--more-->
+
