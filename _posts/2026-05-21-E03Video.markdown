@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "The Learning Revolution (Decoding the Language Machine Ep. 3)"
+date:   2026-05-17 16:23:00 -0400
+categories: news video updates
+---
+
+<figure style="float: left; margin-right: 20px; width: 250px;">
+  <a href="https://youtu.be/7WVMLdJp1kc">
+    <img src="/assets/images/thumbnails/EP03Thumbnail.jpg" alt="How AI Learns">
+    <figcaption style="font-size: 0.8em; text-align: center;">
+      Watch "The Learning Revolution (Decoding the Language Machine Ep. 3)"
+    </figcaption>
+  </a>
+</figure>
+
+Watch it here: [https://youtu.be/7WVMLdJp1kc](https://youtu.be/7WVMLdJp1kc)
+
+How do you program a computer to do something you can't even explain in words? Discover how the backpropagation algorithm revolutionized AI and allowed machines to learn on their own.
+
+For seventy years, the world’s smartest engineers tried to teach machines how to read human handwriting using rigid rules, and they failed. Then came the connectionist movement: an audacious shift from writing code to learning from data.
+
+In this episode of "Decoding the Language Machine," we demystify the core science of how neural networks actually learn. We track the journey from Frank Rosenblatt's 1957 mechanical Perceptron, through the mathematical "wall" of the XOR problem, to the realization of modern deep learning. You’ll see how the landscape of loss works, how backpropagation uses calculus to correct mistakes, and how AI independently rediscovers the biological statistical structures of the mammalian brain.
+
+<!--more-->
