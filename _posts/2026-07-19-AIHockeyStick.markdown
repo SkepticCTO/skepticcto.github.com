@@ -131,6 +131,7 @@ So, is AI improvement real? Yes. The acceleration is corroborated across four in
 ![AI Hockey Stick](/assets/images/2026-07-19-AIHockeyStick/hockey_stick_combined_print.png)
 
 Here is the view of AI improvement across the past two years. Pretty impressive. It will be fascinating to see what will happen next year. Thanks for watching and I’ll see you next time.  
+
 ---
 
 **Sources and further reading:**
