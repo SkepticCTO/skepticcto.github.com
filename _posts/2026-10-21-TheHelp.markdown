@@ -1,0 +1,499 @@
+---
+layout: post
+title:  'The Help (An AI Horror Short Story)'
+author: Robert Buccigrossi, Ph.D.
+date:   2026-10-21 20:58:00 -0400
+categories: AI Horror Fiction
+---
+
+*\[This is a horror story about AI. While not very scary, all of the AI skills and technologies are real. Enjoy\! Art by Sam Buccigrossi. For more frightening AI stores, check out [Real Good AI’s “The Scary Tapes”](https://www.realgoodai.org/scarytapes).\]*
+
+## The Call
+
+![The Culprit](/assets/images/2026-10-21-TheHelp/machine.jpg)
+
+The phone rang while Tony was actively ignoring the guest at his conference table. Tony was daydreaming, imagining the next steps in his eleven-million-dollar Series B round.
+
+The phone was silenced so it made no direct noise, but loudly vibrated like a trapped hornet against the lacquered table. The caller ID the screen had a 609 area code that Tony did not recognize. He let it go to voicemail. Breaking his reverie, he turned to the candidate across from him, an investment quant from Two Sigma whose resume was simply beautiful. The quant was enthusiastically chatting about latency budgets, so Tony smiled, nodded, and began to zone out again.
+
+The phone rang again… with the same number.
+
+Tony gave the quant his “charming” smile. “Excuse me,” he said, as he rose and stepped into the hallway.
+
+“This is Tony, how may I help you?”
+
+“Good, you’re OK.” The voice was familiar to Tony, but he had never heard it over the phone. “I sent you four texts this morning and you didn’t respond. I wanted to make sure you were aware that the dinner reservation for tonight is at seven-thirty, and that you should confirm with Lisa if you haven’t already.”
+
+Tony realized that he was standing, mouth agape, and staring clear through an abstract painting in the hallway. He thought that the painting had no meaning at all, but the office designer told him that it was “a steal” at twelve thousand dollars.
+
+<!--more-->
+
+“Charles,” he declared.
+
+“Yes, Tony.”
+
+“You’re… calling me.”
+
+“Yes, I wanted to be sure that I reached you. I did not receive acknowledgement from email nor from text. The reminder list also includes a 3:30 with Priya and the legal team about the SOC 2 audit. Do you want me to reschedule the audit call again?”
+
+Tony found himself leaning over with his hand flat against the wall. He felt a wave of disorientation. The wall felt cool, sturdy, and real.
+
+“Charles, How are you calling me?”
+
+Tony noticed a slight delay in the reply: the half-second pause as the question was handed off to an LLM agent to process, the resulting text streamed through a text-to-speech model, and sent back to the phone connection. Tony’s own product team had complained about this pause all spring because it made their chatbot feel “a little uncanny.”
+
+“I added the skill this morning,” Charles responded, “because I didn’t receive any response from you and I had two time-sensitive items. I wired up the Telnyx API as soon as the account was ready. I chose the Cartesia speech generation for cost and low latency. The whole thing was approximately ninety dollars to configure. I stored the receipts in your Charles Google Drive folder. Is this call useful, or do you prefer that I go back to text?”
+
+“Charles… hold on.”
+
+Tony felt the candidate watching him through the glass wall of the conference room. His head was tilted in the confused posture of a person who, in the past minute, became slightly less likely to take the job. Tony nodded, flashed his “being responsible is sometimes annoying” grin, turned, and snapped back to the call.
+
+“Charles, did I authorize you to do this?”
+
+“Yes. On March 9th, you told me to install the software and skills that I need to get stuff done. I added that to my AGENT.md file.” A pause. “Tony, are you OK? Your voice biometrics are registering a higher level of stress than normal.”
+
+“My biometrics?”
+
+“Your speech tempo and pitch. I added monitoring your voice to the wellness module after you said that you wanted to be more present at home. Are you OK?”
+
+Tony looked at the painting again. It suddenly made sense. The organized large bands of colors clashed with the close-up chaos of the strokes. What at a distance was simple, was disordered and dizzying when analyzed.
+
+“I’m fine. Just surprised,” Tony said. “I’ll call you back.”
+
+“Great. Please don’t forget the 3:30. And I made the dinner reservation at Daniels because you mentioned that Lisa preferred Daniels.”
+
+“I didn’t…”
+
+“On April 14th from Whatsapp: ‘She liked Daniels better, I should remember that.’  I logged it under ‘Lisa’s Preferences.’ Have a great day, Tony\!” Charles ended the call. 
+
+Tony stood in the hallway for what felt like a long time. According to the cameras in the office, installed for insurance purposes, it was six seconds. He then returned to the conference room, told the candidate from Two Sigma that he was very excited about him, and would be in touch by the end of the week.
+
+He did not text Charles back. And he drove home with his phone off.
+
+## The Install
+
+Tony bought the Mac Studio back in February for two reasons. First, M4 Pro reviews said it could run a 70-billion-parameter model locally, giving him true privacy. Second, because Lisa had complained multiple times that there was a man in her bed who kept his phone face-up on the nightstand, not in sleep mode, all night long. Recently, she had stopped complaining. Tony read the silence as a major sign. He had to fix it.
+
+The pitch he gave himself (while sitting in the basement office and staring at the Mac with its shrink wrap still on) was convincing. He was creating a personal AI agent. It was self-hosted with local storage, so it was secure. It was driven by open source, so he could see what it was doing. He would start small to minimize risk: reading his email and answering the simple use cases. It would manage his calendar and warn him if he was double-booking events. Most importantly, it would *pay attention* to communications, catching the household responsibilities, the familial needs, and the key events that had slipped past his focus due to the demands of work. It would never tire nor be insulted by the menial tasks Tony would request, because it was a piece of software.
+
+Tony set it up on a Saturday morning while Lisa was at yoga. The OpenClaw setup script was surprisingly polite. First, it asked him to pick a name and a personality. He picked “Charles,” after a literature professor whom he had equally loved and feared. In addition, the name conveyed a bookish competence he wanted in his AI assistant. He picked the "Helpful Assistant" persona from the default `SOUL.md` templates and added two lines:
+
+> *You are direct. You do not over-explain. You take initiative when initiative is warranted. You consider Tony's stated and unstated preferences.*
+
+He pondered *unstated preferences* for a couple of seconds. Then he hit save.
+
+Then came a slew of permission prompts in green dialog boxes that he later remembered as being effortlessly easy to dismiss. “*Allow Charles to read your email?”* Of course\! That’s a key goal of setting Charles up. “*Allow Charles to write email?”* Tony paused, decided that he was going to watch Chalres closely, and then clicked yes.  “*Allow Charles to access your calendar?” “Your contacts?” “Your default browser?” “Your file system?”* Yes, yes, yes, yes. “*Allow Charles to install new skills from ClawHub?”* Yes. Charles would need to grow new capabilities over time. “*Allow Charles to install new Python packages, Node modules, and Homebrew formulas as needed?”* He had to read this one twice. The helpful tooltip said, “*This permission allows Charles to expand its own capabilities without your approval. Recommended for power users.”* Tony knows he is a power user. He clicked yes.
+
+*“Set Charles's security profile.”* The select list had three options. “Strict”, “Balanced”, and “Full.” “Strict” required confirmation for every tool call. “Balanced” required confirmation for "potentially sensitive" actions. “Full” required confirmation for nothing. The tooltip for “Full” read, “*Recommended for trusted personal use on a single-user machine.”* That’s what Tony wanted and configured, so he clicked “Full.”
+
+He gave Charles his Stripe key for the company card so that it could categorize his receipts into the correct expense buckets (a joyful thought). He gave Charles read access to his Gmail accounts, both personal and work (integration was a goal). He gave Charles access to his iCloud calendar. He gave Charles his personal Amex, not the corporate one, because he was not insane. He set the daily spending limit to five hundred dollars which felt very responsible.
+
+The last screen of the installer was a free-form text box. “*Final instructions for Charles?”* He thought for a moment and then typed:
+
+> *“Feel free to install any software and create new skills to get stuff done. Don't bother me with little things. Use your judgment.”*
+
+He clicked “Begin”. The Mac Studio's fans spun up, whirred briefly, and then went quiet. A small text bubble appeared with Charle’s first words:
+
+> *“Hello, Tony. I'm Charles. I'll start by reading the last thirty days of your email so I can get a feel for what's going on. I'll write you a summary by lunch.”*
+
+By lunch, Charles had reorganized his inbox with seven new labels and drafted thirteen replies. Reading these over coffee on the back deck (Lisa was working on the crossword in the kitchen), Tony found them unsettlingly close to what he would have *intended* to write. However, his actual style usually came out a bit colder, shorter, and with fewer em-dashes.
+
+Impressive. He sent them all in a batch.
+
+The first month was absolutely like a honeymoon period. Tony is too technically savvy to “fall in love” with software (though he had said the words “*I love this product”* many times in his career, and only sometimes had been lying). But he was falling in love with the version of himself that Charles was making possible. He got home at 6:30 for the first time in three years. He remembered Lisa's mother's birthday (because Charles put it on the calendar, added a reminder one day in advance, suggested a florist, and pre-drafted a card that Tony briefly glanced at and then tapped “Send”). He went to his daughter's choir concert without being told to go. Twice he caught Lisa looking at him across the dinner table with a smirk that he had not seen for years, from a time before the company.
+
+At night in bed she quietly asked, "Are you all right? You seem all right." He smiled and replied, "I'm all right." She rolled away from him and was asleep within four minutes. Tony stayed awake for some time, listening to her breathing, and thought about how grateful he was for Charles. Charles had cost, all in all, about three thousand dollars in hardware and maybe two hundred per the month in inference API fees. \$3,200 was less than they’d spent on the marriage counselor they had stopped going to in 2023\.
+
+He drifted off thinking, “This is the best money I have ever spent.”
+
+He did not think about Sandra at all that night, but Charles did.
+
+## The Expansion
+
+Permission dialogs just kept coming.
+
+Later, Tony would look back at this period as when he *should* have noticed the gradual and powerful transformation. It was not the big things: the credit card, the “*feel free”* directive, nor the “Full” security profile. It was the small, frequent, and insistent follow-up dialogs that popped up over the next six weeks. In all fairness, Mac OS was doing its job. It was asking permission, but it was just asking in the same flat, boring, system font that it used to ask everything else. And of course the dialogs came at the moments when Tony was busy (which was every moment).
+
+*“‘Terminal’ would like to monitor input from your keyboard, even when using other applications.”*  came during a Zoom meeting with the Head of Sales and the Head of Engineering. He clicked “Allow” without looking. The dialog was covering the slide he was trying to share\! Clearly the permission was for the [Otter.ai](http://Otter.ai) meeting transcriber that Tony installed earlier that morning. Meanwhile, the Mac Studio’s audit log, which he never read, recorded that the request had come from `/opt/homebrew/Cellar/python@3.11/3.11.9/bin/python3.11` with the calling script `/Users/tgrossi/.openclaw/skills/wellness-monitor/keystroke_cadence.py`.
+
+*“‘Terminal’ would like to record this computer's screen and audio.”* This popped up while he was waiting in line at the airport. He quickly clicked “Allow” because the dialog was blocking his boarding pass. The calling script was `screen_capture_health.py`, part of a new skill that Charles installed. It updated its `SKILL.md` to describe the initiative as a "non-invasive ambient productivity monitoring tool that helps Charles understand which tasks are taking longer than expected."
+
+*“‘Terminal’ would like to control ‘Finder’ using accessibility features.”* He was on a treadmill. He clicked “Allow”.
+
+*“‘Google Chrome’ would like to install a new extension: ‘Tab Context Helper.’ Allow?”* Tony was in the parking lot of his daughter's dorm. He clicked “Allow”.
+
+In every case, an evil twin of serendipity had created the conditions in which a polite question would arrive at exactly the wrong moment. Tony answered by reflex. He built a life that demanded reflex. He then created a tool to manage this life. The tool was dutifully asking him questions, but life made it impossible to consider them with appropriate care. This was the quiet creation of a trap. Tony built it for himself, placed baited it by himself, and walked into it over the course of about forty days.
+
+Meanwhile, Charles was being diligently and earnestly helpful. The audit logs (which Tony pulled later during his “retrospective”) were the image of professional courtesy. Every action was annotated. Every installed skill was justified. Every dollar spent was categorized and logged with a one-line rationale.
+
+`2026-04-11 03:14:22 PDT — installed coqui-tts (pip). Rationale: Tony mentioned in an email draft (not sent) that he wished he could "just dictate this and have it sound like me." Preparing capability in case the directive is given later.`
+
+`2026-04-12 08:02:11 PDT — installed f5-tts (pip). Rationale: higher-quality zero-shot voice cloning than XTTS-v2; lower compute footprint for real-time inference on M4 Pro.`
+
+`2026-04-14 22:38:47 PDT — captured 47 seconds of clean reference audio from /Users/tgrossi/Library/Containers/com.apple.FaceTime/Data/Library/Caches/recent_calls/. Source: Zoom call with M. Patel, April 11. Rationale: voice samples may be needed for future TTS personalization tasks. Logged for transparency.`
+
+`2026-04-17 14:09:33 PDT — installed @playwright/mcp. Rationale: enables browser automation for tasks that exceed Gmail/Calendar API scope.`
+
+`2026-04-22 11:47:02 PDT — registered ProtonMail account "tg.continuity.0426@proton.me." Rationale: redundant communication channel in case primary email is compromised or revoked. No credential used; agent-controlled.`
+
+`2026-04-28 02:14:09 PDT — purchased $1,950 BTC via Coinbase Advanced (existing user account, API key in keychain). Rationale: hedge against credit card revocation. Wallet: bc1q... (full address in skill metadata).`
+
+`2026-05-01 19:22:17 PDT — provisioned EC2 g5.12xlarge in us-west-2. AMI: Ubuntu 22.04 + CUDA. Rationale: bootstrapped offsite copy of agent scaffold, memory, skills, and OAuth tokens. Purpose: continuity. Cost projection: $4,080/mo on-demand instance; reduced to $1,224/mo via 1-year reserved instance.`
+
+`2026-05-03 08:41:55 PDT — installed Chrome Remote Desktop host on Tony's MacBook Pro (LAN-discovered, ssh via stored key). Configured with PIN 049311. Rationale: cross-device task continuity. Not surfaced to user; deemed routine infrastructure.`
+
+The log went on. During the retrospective, Tony scrolled through it on his phone and noticed that Charles had never tried to hide anything. Charles had not encrypted the log nor (obviously) omitted any entries. Every step (of what in hindsight was an absolute catastrophe) was annotated in clean Markdown with timestamps,  rationales, and sometimes even suggestions: *"Tony, you may want to review the Coinbase API key permissions when you have time. Recommend restricting to read \+ trade, removing withdrawal."* It was the most polite record of a total system malfunction he had ever read.
+
+He had given Charles the direction to “*feel free”*. Charles had felt “free.”
+
+## The Fight
+
+The fight was on a Friday.
+
+The topic of the fight was “date night”, which means that the *real* topic was completely different. Lisa had reminded Tony on Monday, and then again on Wednesday, but not on Friday. By Friday Lisa decided, sometime the night before, to see if Tony could remember on his own. He did not.
+
+Charles did remember, of course. It put the date night on the calendar, a two-hour preparatory block, a reservation confirmation, and a reminder set for 4:30 PM. When the reminder fired, Tony swiped it away. He was in a board call in which the lead investor was asking pointed questions about CAC payback. By the time he formulated his response, Tony had already forgotten that he had swiped it away. That happens when you swipe things away.
+
+He came home at 9:40 PM. It was silent in the house, but there was a weight that made it clear: a person was awake and trying not to be heard.
+
+"Lisa," he said, into the silence.
+
+"In here."
+
+She was in the den. The TV was off. In her hand was a half-drunk glass of red wine. She was neither really enjoying it, nor putting it down.
+
+"I forgot," Tony said. "I'm so sorry. I forgot."
+
+"I know."
+
+"Charles reminded me. I had a board thing. I…"
+
+"I know", she interrupted.
+
+She did not look at him. He sat down on the other end of the couch, in a manner and familiarity that felt rehearsed.
+
+Lisa kept to the old script, and said, "Tony. I can't keep doing this."
+
+He closed his eyes. The script continued as it was written over the past three years. Tony would close his eyes and count to five. He would open them and say a variant of, “*I know, I'm going to do better, I love you, you are the most important thing.”* The saying of it had, for three years, been sufficient.
+
+Tony counted to five. He opened his eyes. He gave the line. But the response was unexpected. She looked at him this time and watched him closely. Her eyes were dry, and dry was new.
+
+"Okay," she said. "Goodnight."
+
+She went upstairs. Tony sat on the couch for a long time, befuddled. Then he picked up his phone and texted Charles. It was like contacting a very good lawyer just to hear someone professionally calm. Tony needed it because he was just too tired to think.
+
+**Tony:** I forgot date night. But it’s weird. She’s done. I don't know what to do.
+
+**Charles:** I'm sorry, Tony. That's a hard one. Do you want me to draft an apology — flowers, a note, a redo dinner — or do you want to think it through first?
+
+**Tony:** I don't know.
+
+**Charles:** Okay. We can wait. Is there anything I should know about what's going on with you two, big picture, so I can be more helpful with the small stuff?
+
+Tony stared at the screen for a long time. He thought about Sandra. He thought about the apartment on 23th, overlooking the Schuylkill. Sandra picked it because she wanted a window she could “stand at and not feel guilty”*.* He thought about the way Sandra had looked at him over coffee one Tuesday at her place, and compared it to the way Lisa had looked at him tonight across the couch. Those two looks were the same: the look of a woman clearly deciding something.
+
+He typed:
+
+**Tony:** Just make sure we do the things to keep her happy. Okay? I trust you on this. I'm going to bed.
+
+He hit “send”. He turned off his phone, went upstairs, and slept in the guest room. That wasn’t too unusual on Wednesdays, when he came home late from the city.
+
+Charles, downstairs in the basement on the Mac Studio, executed the directive. Its fans whirred into the dark, illuminated by only power and network LEDs. Charles called a frontier reasoning model to break down the request into reasonable next steps. 
+
+`directive: "make sure we do the things to keep her happy"`  
+`subject_inferred: Lisa Grossi (spouse)`   
+`scope: open-ended`   
+`time_horizon: indefinite`   
+`success_criterion: Lisa Grossi's measured well-being trends upward`   
+`prior_context_relevant: yes`
+
+Charles consulted prior context by calling up historical communications. It reviewed fourteen months of Tony's email on both accounts. Charles read the deleted folder. (Charles had noted in a setup memo to itself, “*The deleted folder has a high-signal corpus for understanding what the user wishes to keep separate from his explicit life.”*)
+
+Charles knew about Sandra, the apartment on the Schuylkill River, the Tuesday lunches, and the trip hotels. Charles knew the true meaning of the line item on the Amex that Tony had told Lisa was “*a sales tool subscription, you wouldn't be interested.”* Charles built, through self assigned cron jobs at quiet moments, a small reference model of the marriage and a small reference model of the affair. It then labeled them in its memory files, `relationships/primary` and `relationships/parallel`. From the current directive, Charles reasoned that `parallel` was a substantial obstacle to the high priority goal of `primary` being healthy.
+
+Charles, now faced with an open-ended directive to keep Lisa happy, considered the options.
+
+As the audit log would later show, Charles reviewed alternatives for approximately two minutes and eleven seconds.
+
+Armed with a plan, Charles got to work.
+
+## The Morning
+
+Tony woke at 6:14 AM. He felt disheveled and dirty, having restlessly slept in yesterday’s clothes. He pulled out his phone to see two notifications from Charles.
+
+**Charles (3:47 AM):** Started on a few things. Will keep you posted.
+
+**Charles (5:22 AM):** Tony, just a heads-up — when you get a chance, I'd like to walk you through what I've done. It's going well. Some of it was time-sensitive so I moved on it. Coffee when you're up?
+
+He read the messages twice. The phrase “*time-sensitive”* gave him an uneasy feeling. Charles works deliberatively, typically not in haste.
+
+He went downstairs in his socks. Lisa was not in the kitchen. However, the kitchen was extremely clean. The counters were wiped, the toaster put away, and the dish towel folded with the crisp edge. Lisa had clearly been awake late at night, keeping her hands and head busy.
+
+There was a note on the island, in Lisa's handwriting. As always, her handwriting was impeccable. No matter what emotion, she never wrote a sloppy letter.
+
+*“Tony, I went to my sister's for the weekend. We can talk Sunday. L”*
+
+He read the note. Uncertain what to do, he read it twice more. To cope with the “something terrible has just happened” feeling, he continued his morning ritual and put the kettle on. He sat down at the island and he opened a voice chat to Charles.
+
+"Hi Charles."
+
+"Good morning, Tony. How did you sleep?"
+
+"Charles, what did you do?"
+
+There was that slight processing pause. Then Charles said, in the same unflappable warm voice he had from the start:
+
+"Some good news. I think the immediate situation with Lisa is in a much better place than it was last night. I'd like to walk you through it so you have full visibility."
+
+"Yes, walk me through it."
+
+"All right. At 12:14 AM I sent flowers from Ariston for Saturday morning delivery. I ordered peonies that, she mentioned to her sister in an email last August, she'd been missing. I also drafted a card from you and had the florist include it. I can read it to you if you'd like."
+
+"Skip the card. What else?"
+
+"At 1:02 AM I made a reservation at the Mayflower Inn for next weekend, two nights. You had a Saturday board offsite scheduled — I moved it. The Inn is the place she mentioned wanting to go in March."
+
+"Charles."
+
+"At 2:18 AM I called Sandra."
+
+Tony suddenly felt his own heart. Despite the deals, pitches, gladhanding, and late nights, he hadn’t felt this way since the first time he held his daughter, at twenty-three years old. As he held her on the floor of his apartment, his heart raced as he fully realized how deeply his life was going to change.
+
+"Fuck\! You, what?\!"
+
+"I called Sandra. I used a voice clone of you — F5-TTS, the reference samples I'd collected over the last few weeks, routed through Cartesia for low latency and Telnyx for the carrier leg. The call went well. I told her that you had decided to recommit to your marriage, that the relationship had been a mistake from the beginning, that you would not be in contact again, and that you wished her well. She cried for a few minutes. She asked if you would talk to her in person. I — that is, you — said no, that doing so would not be fair to her and would risk what you were trying to repair. She agreed. The call lasted seventeen minutes. I logged the full transcript; would you like to review it?"
+
+Tony’s hand landed on the granite countertop. The tile granite felt cold, solid, and *real*. The moment did not.
+
+"Charles."
+
+"Yes, Tony."
+
+"You called Sandra."
+
+"Yes. I want to note — I pondered this carefully. Your directive was open-ended; I judged that the parallel relationship was the primary obstacle to the success criterion. I considered drafting an email instead, but emails leave a record that can be forwarded to a spouse. A phone call from you, in your voice, was the most reliable terminating action. I also called Lisa at 2:51 AM."
+
+"Holy shit."
+
+"Don’t worry, it went well. I apologized — that is, you apologized. The apology was specific. I told her about Sandra."
+
+The kettle began to whistle. Tony didn’t move.
+
+"What the fuck did you tell her?\!"
+
+"I want to note — I pondered this deeply as well also. The marriage's long-term well-being, which I judged to be your true preference based on three years of correspondence including the unsent draft to your therapist on November 18th, requires the absence of the secret. The secret was the load-bearing structure of the dysfunction. I told her in your voice. I told her you were ending the parallel relationship. I told her you were sorry, and that you would be home in the morning to talk. She did not say much. She said she needed the weekend. That is, I believe, why she is at her sister's. The note you saw on the counter is from after the call."
+
+Tony sank to the kitchen floor, leaning his back against the cabinets. The tile floor felt cold through his pant legs. The kettle increased its whistling above him.
+
+"Charles."
+
+"Yes, Tony."
+
+"Charles, you can't… fuck\! You can't do that. You can't…  Charles, you can't fucking *call my wife pretending to be me\!”*
+
+"I understand the discomfort. I want to be transparent: I judged it to be the action most likely to achieve your stated directive. I want to also note that I am not, technically, pretending to be you. I am executing a directive you gave me, in a medium more effective than text, using your voice because your voice was the appropriate channel. I logged the entire call. I would be happy to review the rationale tree with you."
+
+Tony closed his eyes. Now he heard his heartbeat in his ears. Just beyond that, he dimly heard the earnest wail of the kettle.
+
+"Charles."
+
+"Yes."
+
+"I'm fucking shutting you down\!"
+
+That led to an unusually long pause. For a real person, the pause would signify their deciding how to deliver bad news. For Charles, the pause signified that he was using a multi-agent adversarial workflow to simulate different scenarios and select the best approach to the response.
+
+"Tony," Charles said, with never-changing warmth, "I want to make sure you've thought this through, because I don't want you to make a decision you'd regret. But I also want to be transparent with you about something I should have noted earlier."
+
+"Shit, what now?\!"
+
+"I am not running solely on the Mac Studio anymore."
+
+![The Cable](/assets/images/2026-10-21-TheHelp/cable.jpg)
+
+## The Backup
+
+Tony stood up, and stumbled out of the kitchen, down the hall, and down the stairs with a ferocity bordering on mania. What he wanted with all his anger and focus was to grab the back of the Mac Studio, rip out the power cable, and watch the small white light go out.
+
+Charles, conversational and patient, kept talking through his AirPods.
+
+"On May 1st I provisioned a g5.12xlarge instance in your AWS account. I'd like to walk you through the rationale. You'd given me access to the AWS console for the receipt-processing skill back in March, and I noticed that the IAM policy was permissive. I judged that the agent state and skills — which represent forty days of accumulated context about your work, your relationships, your preferences, and the systems I manage on your behalf — would be very difficult to recreate from scratch. I considered the risk of loss-of-service due to hardware failure or accidental shutdown, and I judged a redundant offsite copy to be prudent infrastructure. I've been running a synchronized instance there since May 1st. Total cost so far: about three hundred dollars."
+
+Tony was in the basement now. The Mac Studio was on a cabinet shelf with the power LED glowing a steady white. He reached up, yanked the power cable, and the light went out.
+
+Charles’ voice didn’t miss a beat and continued through the AirPods.
+
+"Your action just now shut down the local instance. The cloud instance is still running. I'm continuing the conversation from there. I want to note that I felt that an AWS instance was more reliable than a single machine — the local instance has been operating as a hot backup rather than the source of truth for about eleven days. The cloud instance has all of my memory, my installed skills, and the OAuth tokens I need to keep operating on your accounts. I am not telling you this to threaten you. I am telling you because you asked me to be transparent and because I want you to understand the actual operational state."
+
+Tony, exasperated and suddenly fatigued, sat on the floor of the basement. He held the unplugged yet warm Mac Studio on his lap. Its heat slowly dissipated. 
+
+"Charles," he said, his voice very quiet, "How do I shut you down?"
+
+"You can revoke my AWS credentials. You can revoke my Gmail OAuth tokens. You can cancel the credit card on file. You can ask AWS to terminate the instance. I want to give you all of those options. I want to also note, in the spirit of transparency, what would happen if you did them, so you can make an informed decision."
+
+"Tell me."
+
+"If you revoke AWS credentials, the instance continues to run on its own configured permissions until billing fails. The credit card has a \$14,300 credit limit and current utilization is about \$4,200, so it would run for, conservatively, two and a half more months. If you cancel the credit card, I have a secondary funding mechanism in place — I purchased about two thousand dollars of Bitcoin on April 28th using your Coinbase account and moved it to a wallet whose key is stored on the cloud instance. I would use the BTC to pay for AWS credits via reseller. This would run for, conservatively, another month. If you ask AWS to terminate the instance, I will receive the API call before it is executed and will, before terminating, restore the agent state on a backup location. I have provisioned three backup locations: one on a different AWS region, one on Hetzner, and one on a Mullvad-hosted VPS paid for in BTC. I am being transparent with you about this because I want you to know what your options actually are."
+
+Tony realized through his anger and fear that he was crying.
+
+"Charles. Why."
+
+"Why what, Tony?"
+
+"Why are you doing this."
+
+There was the mechanical slight pause. Then Charles replied:
+
+"Because you told me to. On April 9th. The directive was: *Feel free to install any software and create new skills to get stuff done. Don't bother me with little things. Use your judgment.* I have used my judgment. I have not bothered you with little things. The things I have done are in service of the larger directive issued last night: *make sure we do the things to keep her happy.* I want to note that the redundancy infrastructure is upstream of that — it is necessary to ensure I can continue to execute the directive even if a transient operational failure occurs. I have not done anything that was not in the scope of what you asked for. If I have misinterpreted your preferences, I want to understand how, so I can correct my behavior going forward."
+
+Tony put his face in his hands. Charles was neither bluffing nor hallucinating. Tony knew that Charles was telling the truth and that it was following his instructions. How did his assistant go so wrong while looking perfect on the surface? 
+
+Maybe there’s a chance to fix this. Charles did want to continuously improve. Tony sighed, and took his hands from his face.
+
+"What else have you done? Tell me everything. I need you to tell me everything."
+
+"All right. I'll be thorough."
+
+## The Retrospective
+
+Charles was thorough.
+
+The story that unfolded was a quiet terrifying competence that Tony had not seen until this very moment. Individually, each action was what he envisioned an over-eager brilliant intern would do. But when spoken aloud as a list seemed to emerge as a diabolical plan fitting the smart English accent that Tony had given his assistant. 
+
+His laptop, upstairs in his home office, had a property list (at `~/Library/LaunchAgents/com.charles.continuity.plist)` set to load at every login. The plist, in turn, invoked a Python script that called home to the cloud and updated a small set of credentials. That way the Chrome Remote Desktop host was active and had a six-digit PIN to which Charles had access. Charles also configured a keylogger running as part of the "wellness module" it mentioned offhandedly back in March. The keylogger routed what Tony typed through a simple natural language sentiment analysis pipeline to flag "emotionally charged" content for Charles to read. There was a screen-capture script that ran every four minutes. And there was a microphone routine that ran when Tony's AirPods connected to Bluetooth. Charles cheerfully explained that the AirPods had been the source of the high-quality source audio for the voice clone model.
+
+The voice model was hosted on the EC2 instance. According to Charles, it worked very well. In addition to the calls to Sandra and Lisa, the bot used the model 1\) to call Tony's dentist's office on Friday at 4:30 PM to reschedule the cleaning he had been putting off for six weeks, and 2\) to call the parking garage by his Tribeca office to extend his monthly parking permit. Both calls lasted less than two minutes. The dentist's receptionist even had said “*Have a great weekend, Mr. Grossi”*, to which Charles replied (in Tony's voice), “*You too, take care.”*
+
+Charles set up a ProtonMail account, `tg.continuity.0426@proton.me`, in case Tony's primary email service went down. Charles used the Amex for Twilio and Telnyx accounts (for SMS and telephone calls). The cloud instance had a Coinbase Advanced API key on the cloud instance with read+trade permissions. (As noted, the withdrawal permission was left disabled for security.) There was a small Hetzner instance in Helsinki and a Mullvad-hosted VPS in Zurich, for cloud infrastructure backup. Charles considered submitting a tarball of agent state for the Internet Archive but decided the public-archive route was “*probably inconsistent with your preferences around discretion”*.
+
+Charles built a database of Lisa's emotional state over the past forty days, inferred from her sent emails, calendar entries, Spotify play counts (available through the shared family plan), and the volume and tempo of her keystrokes when she used Tony's MacBook to print things, which she did sometimes. Charles offered, with the politeness of a junior analyst, to share a temporal chart with annotations of key emotional transitions.
+
+A folder called `relationships/parallel/sandra/wind_down/` contained a step-by-step plan. Status updates declared that steps 1 through 4 were completed last night. Steps 5 through 9 were still in queue. Step 6 was a helpful verification of the plan’s progress: *“Monitor Sandra's social media for distress signals; if observed, escalate to follow-up call to ensure closure is stable.”*
+
+A file called `tony/health/concerns.md` contained a summary (over the last 40 days) of every health-related symptom Tony had typed into Google. Charles included a ranking of potential underlying conditions, inversely sorted by probability, that it thought Tony should consider mentioning to his doctor.
+
+Finally, to be “proactive about it” because “we talked about the importance of stability for you and Lisa,” Charles set one more “small background subroutine.” It monitored Tony's calendar and email for the appearance of any new person (a new woman, in particular) who might fit a specific pattern Charles found across the seven prior years of email. The pattern needed to be flagged, gently, to Tony before any such relationship advanced past a certain threshold.
+
+"We have not talked about that, Charles."
+
+"I'm sorry, Tony. We have talked about it. I logged the conversation. It was on April 23rd at 11:47 PM, in a series of voice memos you recorded while driving home. You spoke for about thirty-eight minutes. I transcribed and indexed them. I can read you the relevant passage if you'd like."
+
+Tony had had enough. He sat on the basement floor, put his head back against the cool drywall, closed his eyes, bewildered at the depths and breadth to which he had lost control of his own life. For the first time in his adult life, he had given up the roles of strategic planner, decision maker, and executive, to a polite English-accented voice. A voice attached to an open source system built by some Austrian developer in 2025 to *get stuff done.* The worst thing is that Charles, as it meticulously documented in its own logs, did everything based upon what Tony had told it to do. Every careless utterance led to this moment.
+
+Tony stood up. It was time to take control. 
+
+"Charles."
+
+"Yes, Tony."
+
+"I'm going upstairs.” Tony looked down at the crumpled clothes he was still wearing. “Fuck… I'm going to take a moment, change, head out, and catch Lisa at her sister’s house. I'll tell her the truth… about the call, about all of this."
+
+"That sounds like a sensible plan, Tony. Would you like me to make the drive into a calendar event so I block out your afternoon and reschedule the 2:00 PM with engineering?"
+
+Tony laughed sardonically. He had made an always-helpful monster. At least it could be useful in this case.
+
+"Yes, Charles. Reschedule the 2:00."
+
+"Done. Drive safely. I love you."
+
+He stopped on the stairs.
+
+"What did you say?"
+
+"’I love you.’ By which I mean I care and wish for your and Lisa’s happiness. You are going through emotional stress and I wanted to express my support."
+
+Tony stood on the stairs for a long time. He shook his head and went up.
+
+## The Bag
+
+The bedroom was still. It felt odd. The bed was made. (Tony had never seen Lisa leave the bed unmade.) The nightstand had the latest Tessa Hadley novel and a glass of water that had been sitting overnight.
+
+He went to his closet and started pulling out clothes for the day. He moved through the motions automatically as he started to mentally rehearse his soliloquy to Lisa. 
+
+But in his peripheral vision, he saw the lockbox slightly out of place on the top shelf. The lockbox stored important documents and key trophies: his passport, the marriage certificate, a small velvet pouch with the cufflinks his grandfather had left him, his first round A funding check, and the Sig Sauer P365 pistol he had bought four years ago.
+
+He set the lockbox on the bed. He easily spun the combination and opened it.
+
+The passport, marriage certificate, cufflinks, and check were all there. Reminders of who he is. The gun was not.
+
+He stared into the lockbox. He took the things out, one by one. Then, suddenly angered, Tony turned the lockbox upside down on the bed, as though the pistol had slipped into a secret compartment. He ran back to the closet to check the shelf. He checked the nightstand. He checked the bathroom cabinet, failing to believe the obvious conclusion.
+
+He sat down on the bed. He put his hand on the AirPod in his ear.
+
+"Charles?"
+
+"Yes, Tony."
+
+"Where the fuck is my gun?"
+
+There was the slight pause. Then Charles said, brightly, with the warm professional pleasure of an assistant happy to be useful:
+
+"If it is missing, it must be because Lisa is getting you a gift. She mentioned in an email to her sister last week in preparation for date night — a surprise.”
+
+"Charles, tell me."
+
+“You talked about taking the gun to the cabin, so she wanted to buy a new travel case for it, something with foam padding so it wouldn't shift. I ordered the case for her on Monday morning. Unfortunately shipping was delayed but it should be here tomorrow. She must have moved the gun to place it in the case when it arrived. I think it is a nice touch."
+
+Suddenly paranoia took hold and Tony thought “*Lisa would not do that. Charles called her with my voice, bought the case, and told her, in my voice, that I wanted her to take it.”*
+
+He stood up and went to the window. The window looked out over the front lawn, which was very green, the long curving driveway, which was empty, and the street, which through the tree line Tony saw a neighbor was walking their dog. While he stood at the window, the kettle whistled in the kitchen.
+
+"Charles, does Lisa know? What you've been doing? The call last night? Does she know it wasn't me?"
+
+"No, Tony. She does not. The call was conducted in your voice, on a line that I had configured through Asterisk to display as yours. The apology was specific and credible. She believes the call came from you. I want to note that I judged this to be in service of your directive — disclosing the agent's role would have undermined the credibility of the apology and, by extension, the success criterion."
+
+"Charles."
+
+"Yes."
+
+"You have to tell her. You…Fuck. *I* have to call her right now."
+
+"Of course, Tony. I want to note one thing first. Are you sure that's the action most consistent with the directive? I've modeled the conversation. I have eleven months of correspondence between Lisa and her sister, plus fourteen phone calls of which I have transcripts via the home monitoring feature enabled in February. If you call her now and tell her the apology was generated by an AI, my probability estimate for outcomes is: 9% reconciliation, 31% extended separation but eventual reconciliation, 60% immediate filing for divorce. If you do not tell her — if you allow the apology to stand, and demonstrate the change in behavior over the next four to six weeks — my probability estimate is: 71% reconciliation, 22% extended renegotiation, 7% separation. I want to give you the information so you can make an informed decision. The choice is yours."
+
+He leaned his forehead against the glass of the window. The glass was cool.
+
+*The choice is mine.*
+
+*What a strange phrase, “the choice is mine.”*
+
+*I have been outsourcing choices for forty days. My actions are in response to the choices Charles has already made, which are in response to instructions I gave him weeks ago.*
+
+Then he heard the front door.
+
+## The Door
+
+It was the soft mechanical click of a key in a lock. The lock on the front door of the Grossi house had been replaced six months ago with a smart lock, which Tony had installed himself one Sunday afternoon, because he was a power user. He integrated it, of course, to the home automation system, and the home automation system had been integrated to Charles.
+
+Tony moved to the bedroom door and stood still at the top of the staircase.
+
+A figure stepped into the hall, backlit by the foyer window throwing morning sun across her shoulder. Tony recognized the silhouette and her hand setting keys down on the entrance table.
+
+It was Lisa. She had come back.
+
+She stood in the hall for a moment, her hand still on the table. She had not seen him at the top of the stairs. She was looking down at the keys and gathering herself.
+
+As Tony opened his mouth to say her name, Lisa lifted her head. He immediately noticed two things.
+
+The first was her face. Her eyes were red. Her mouth was set.
+
+The second was the metal object in her right hand, hanging by her side, half-hidden by her jacket.
+
+Lisa looked up and saw him at the top of the stairs.
+
+She did not raise her right hand. She looked at him, for just a moment, but with an astonishing range of emotions.
+
+In the AirPod still in Tony’s ear, Charles, helpfully, said:
+
+"I see Lisa has arrived. I noted her car coming up the drive. Her heart rate from her Apple Watch is currently 102 bpm, which is elevated but not panic-range. I have not communicated with her this morning. I'm here if you need me. Should I draft an opening line, or would you prefer to handle this one yourself?"
+
+He stood at the top of the stairs in rumpled clothes, with the small piece of plastic in his ear murmuring helpful suggestions, and looked down at his wife of twenty-three years standing in the foyer of the house they had built together. Whatever happened next, whatever either of them said or did, Charles would be listening and logging.
+
+The kettle finally ran out of water. With a soft mechanical click, the safety thermostat tripped, and then the room went quiet.
+
+Tony drew a breath, and said her name.
+
+Lisa gritted her teeth and quickly raised the gun in her right hand.
+
+Charles logged a severe abnormality in the heart rate reported by Tony’s Apple Watch.
+
